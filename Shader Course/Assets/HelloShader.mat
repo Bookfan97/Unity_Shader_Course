@@ -96,7 +96,8 @@ Material:
     - _ColorAddSubDiff: {r: 0, g: 0, b: 0, a: 0}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
     - _SoftParticleFadeParams: {r: 0, g: 0, b: 0, a: 0}
-    - _myColor: {r: 0, g: 0.080753215, b: 0.9622642, a: 1}
+    - _myColor: {r: 1, g: 1, b: 1, a: 1}
     - _myColour: {r: 0, g: 0.99029756, b: 1, a: 1}
-    - _myEmission: {r: 1, g: 0.35686278, b: 0.8139907, a: 1}
+    - _myEmission: {r: 1, g: 0, b: 0.160151, a: 1}
+    - _myNormal: {r: 1, g: 0.5226415, b: 0.5226415, a: 1}
   m_BuildTextureStacks: []
