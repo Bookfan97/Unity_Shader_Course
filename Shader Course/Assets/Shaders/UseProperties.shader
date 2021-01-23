@@ -26,7 +26,8 @@
         };
         
         void surf (Input IN, inout SurfaceOutput o) {
-            o.Albedo = (tex2D(_myTex, IN.uv_myTex) * _myRange * _myColor).rgb;
+                        o.Albedo = (tex2D(_myTex, IN.uv_myTex)).rgb;
+            o.Albedo.g = 1;
             o.Emission = texCUBE (_myCube, IN.worldRefl).rgb;
         }
       
