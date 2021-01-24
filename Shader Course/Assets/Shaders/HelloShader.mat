@@ -60,7 +60,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myCube:
-        m_Texture: {fileID: 8900000, guid: 5a672cb61ef32734b9c28539c9c42494, type: 2}
+        m_Texture: {fileID: 8900000, guid: 64f324fea9b135846b6a1f341c2cd072, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _myDiffuse:
@@ -105,10 +105,10 @@ Material:
     - _SrcBlend: 1
     - _UVSec: 0
     - _ZWrite: 1
-    - _myBright: 10
+    - _myBright: 0.1
     - _myFloat: 0.5
     - _myRange: 0.9
-    - _mySlider: 8.7
+    - _mySlider: 0
     - _myTexNormalSlider: 10
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
