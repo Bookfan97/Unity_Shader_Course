@@ -107,7 +107,8 @@ Material:
     - _ZWrite: 1
     - _myFloat: 0.5
     - _myRange: 0.9
-    - _mySlider: 5.3
+    - _mySlider: 4.2
+    - _myTexNormalSlider: 10
     m_Colors:
     - _AmbientColor: {r: 1, g: 1, b: 1, a: 1}
     - _CameraFadeParams: {r: 0, g: Infinity, b: 0, a: 0}
