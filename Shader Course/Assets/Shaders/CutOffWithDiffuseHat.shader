@@ -15,13 +15,13 @@
           float3 worldPos;
       };
 
-      sampler2D _MainTex;
+      sampler2D _RampTex;
       float4 _RimColor;
       float _RimPower;
       float _StripeWidth;
 
       void surf (Input IN, inout SurfaceOutput o) {
-          o.Albedo = tex2D(_MainTex, IN.uv_MainTex).rgb;
+          o.Albedo = tex2D(_RampTex, IN.uv_MainTex).rgb;
           half rim = 1 - saturate(dot(normalize(IN.viewDir), o.Normal));
           o.Emission = frac(IN.worldPos.y*(20-_StripeWidth) * 0.5) > 0.4 ? 
                           float3(0,1,0)*rim: float3(1,0,0)*rim;
