@@ -1,6 +1,6 @@
 ﻿Shader "NoahTestShader/ToonRamp"
 {
- 	Properties 
+	Properties 
 	{
 		_Color  ("Color", Color) = (1,1,1,1)
 		_RampTex ("Ramp Texture", 2D) = "white"{}
@@ -31,16 +31,21 @@
 		struct Input 
 		{
 			float2 uv_MainTex;
+			float3 viewDir;
 		};
 
 		void surf (Input IN, inout SurfaceOutput o) 
 		{			
-			o.Albedo = _Color.rgb;
+			float diff = dot (o.Normal, IN.viewDir);
+			float h = diff * 0.5 + 0.5;
+			float2 rh = h;
+			o.Albedo = tex2D(_RampTex, rh).rgb;
 		}
 		
 		ENDCG
 	} 
 	
 	FallBack "Diffuse"
+
 
 }
