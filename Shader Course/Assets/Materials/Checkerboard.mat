@@ -7,12 +7,12 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: e05adf81b0e181d49a5b8605d7ab42f0, type: 3}
+  m_Name: Checkerboard
+  m_Shader: {fileID: 4800000, guid: b919b834b8a20084cba90ac19c01394a, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
-  m_DoubleSidedGI: 0
+  m_DoubleSidedGI: 1
   m_CustomRenderQueue: -1
   stringTagMap: {}
   disabledShaderPasses: []
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 2800000, guid: 963fb241c13d22e4898c9a182534ad2a, type: 3}
+        m_Texture: {fileID: 2800000, guid: c3d66a8056f9db345b1ea380aa7e815d, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -106,7 +106,7 @@ Material:
     - _MySliderValue: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimPower: 1.8
+    - _RimPower: 0.5
     - _SmoothnessTextureChannel: 0
     - _SoftParticlesEnabled: 0
     - _SoftParticlesFarFadeDistance: 1

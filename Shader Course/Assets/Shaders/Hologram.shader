@@ -1,4 +1,4 @@
-﻿Shader "Custom/Hologram"
+﻿Shader "NoahTestShader/Hologram"
 {
     Properties
     {

@@ -7,13 +7,13 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: HelloShader
-  m_Shader: {fileID: 4800000, guid: e05adf81b0e181d49a5b8605d7ab42f0, type: 3}
+  m_Name: Plant
+  m_Shader: {fileID: 4800000, guid: 7759779690ec671438b6b722438e1401, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 0
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2450
   stringTagMap: {}
   disabledShaderPasses: []
   m_SavedProperties:
@@ -106,7 +106,7 @@ Material:
     - _MySliderValue: 10
     - _OcclusionStrength: 1
     - _Parallax: 0.02
-    - _RimPower: 1.8
+    - _RimPower: 0.5
     - _SmoothnessTextureChannel: 0
     - _SoftParticlesEnabled: 0
     - _SoftParticlesFarFadeDistance: 1
